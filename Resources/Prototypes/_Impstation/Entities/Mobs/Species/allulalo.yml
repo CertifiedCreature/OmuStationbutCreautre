@@ -8,16 +8,16 @@
 #  - type: GoobAbsorbable # Omu, we don't have this
 #    biomassRestored: 1.0
   - type: Hunger
-    baseDecayRate: 0.02 # 30% ish more than default
+    baseDecayRate: 0.03 # 30% ish more than default
   - type: Thirst
-    baseDecayRate: 0.02 # 30% ish more than default
+    baseDecayRate: 0.03 # 30% ish more than default
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
         shape:
           !type:PhysShapeCircle
           radius: 0.32
-        density: 75 #this is half the normal and makes them very light
+        density: 70 #this is half the normal and makes them very light
         restitution: 0.0
         mask:
         - MobMask
@@ -48,7 +48,7 @@
     damageContainer: Biological
     damageModifierSet: Allulalo #stops them from being oppressive hopefully
   - type: Bloodstream
-    bloodMaxVolume: 250 #should be 50 less than the default of 300. theyre small
+    bloodMaxVolume: 225 #should be 50 less than the default of 300. theyre small
     bloodReagent: BloodAllulalo
 #  - type: DamageVisuals # Omu, this does not work currently.
 #    damageOverlayGroups:
@@ -58,8 +58,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Critical
-      200: Dead
+      75: Critical
+      145: Dead
   - type: MeleeWeapon #bites you
     soundHit:
       collection: AlienClaw
@@ -67,7 +67,7 @@
     animation: WeaponArcAllulaloBite
     damage:
       types:
-        Piercing: 4
+        Piercing: 5.5
   - type: SolutionContainerManager
     solutions:
       melee:
@@ -83,12 +83,12 @@
       - ReagentId: Ethanotoxin
         Quantity: 0.05 #20 second cooldown between bites working full power
   - type: StaminaResistance
-    damageCoefficient: 1.25 #takes the disabler/batong hits needed to stun from 4 > 3
+    damageCoefficient: 1.15 #nerfed by .10
   - type: Butcherable
     butcheringType: Spike
     spawned:
       - id: FoodMeatChicken #this was yesters idea, not mine
-        amount: 5
+        amount: 4
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Monkey_burning
