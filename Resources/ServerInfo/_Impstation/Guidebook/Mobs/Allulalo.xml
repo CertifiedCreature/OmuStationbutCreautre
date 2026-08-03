@@ -5,12 +5,12 @@
     <GuideEntityEmbed Entity="MobAllulalo" Caption=""/>
   </Box>
 
-  [color=red]Caution! This species has several SEVERELY limiting game mechanics and is only recommended for highly experienced players. Some jobs and tasks may be difficult or impossible to perform by yourself with only one hand.[/color]
+  [color=red]Caution! This species has SEVERAL SEVERELY limiting game mechanics and is only recommended for more Experienced players or those seeking a challenge or (debatably) unique gameplay. Some jobs and tasks may be very difficult or outright impossible to perform by yourself with only one "hand".[/color]
 
-  Allulalo are a reclusive species of saurians native to the IMP-sector outer nebulae. They are rarely seen, preferring to conceal their cities deep inside asteroid fields and mask their movements with stealth fields or radio jammers. Although investigations into whether they pose a security risk to nearby stations is ongoing, successful agreements have been brokered to enable small-scale contact and occasional employment of Allulalo among Nanotrasen staff.
+  Boring Lore (I hate Allulalos) : Allulalo are a reclusive species of saurians native to the IMP-sector outer nebulae. They are rarely seen, preferring to conceal their cities deep inside asteroid fields and mask their movements with stealth fields or radio jammers. Although investigations into whether they pose a security risk to nearby stations is ongoing, successful agreements have been brokered to enable small-scale contact and occasional employment of Allulalo among Nanotrasen staff.
 
-  Observation records confirm higher land-speeds than traditionally seen among humanoids, but the unusual, pentafurcated beak they use for manipulating in the place of traditional "hands" seems to [color=#ffa500]prevent them from wielding any large weaponry.[/color] Their height also makes them unable to interface with most NT standard devices, and they are frequently seen [color=#ffa500]standing on chairs and tables or using anti-gravity technology to reach the controls.[/color]
-
+  Observation records confirm higher land-speeds than traditionally seen among humanoids, but the unusual, pentafurcated beak they use for manipulating in the place of traditional "hands" seems to [color=#ffa500]prevent them from wielding any large weaponry, and thus are regarded as unhireable for tasks such as ERT Security Reserves.[/color] Their small size also makes them unable to interface with most standard devices, regardless of origin and sector, and they are frequently seen [color=#ffa500]standing on tall objects, such as chairs and tables or using anti-gravity technology to reach the controls as station and equipment design do not consider a rare, accomodation heavy species in their development.[/color]
+  New Player Summary: You will be obliterated, you cannot use any equipment normally, cannot wield longarms nor two handed melee. However you are extremely mobile and hard to hit (without wideswing). Don't try to be a cargo tech, as you cant drag crates well. Nor a security officer as you will be ratio'd by an Oni very quickly.
   <Box>
     <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
     <GuideEntityEmbed Entity="VendingMachineCigs" Caption=""/>
@@ -19,9 +19,9 @@
 
   # Biology
 
-  Allulalo have hollow bones, which results in them taking [color=#ffa500]15% more brute damage[/color]. They are also [color=#ffa500]25% more vulnerable to stuns, and their low body mass causes them to be thrown farther by impacts[/color].
+  Allulalo have hollow bones, which results in them taking [color=#ffa500]15% more brute damage[/color] (to be increased). They are also [color=#ffa500]~35% more vulnerable to stuns, and their low body mass causes them to be thrown farther by impacts[/color].
 
-  Allulalo also have hyperactive hearts, which results in them [color=#ffa500]metabolising Medicine, Poisons and Narcotics 50% faster[/color]. Their heart's already-strained musculature also causes speed-increasing reagents to be [color=#ffa500]Significantly less effective.[/color], as well as causing them to burn energy faster and become [color=#ffa500]hungry and thirsty sooner than their peers[/color].
+  Allulalo also have hyperactive hearts, which results in them [color=#ffa500]metabolising Medicine, Poisons and Narcotics 50% faster[/color]. Their heart's already-strained musculature also causes speed-increasing reagents to be [color=#ffa500]Significantly Less Effective.[/color], as well as causing them to burn energy faster and become [color=#ffa500]hungry and thirsty sooner than their peers[/color].
 
   It is easy to underestimate Allulalo due to these drawbacks, but they have a major strength: [color=#1e90ff]They are incredibly mobile, and can easily outpace most humanoid species[/color].
 
